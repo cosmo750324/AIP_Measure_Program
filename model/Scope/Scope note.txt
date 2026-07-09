@@ -1,0 +1,13 @@
+
+MSO/DSO示波器畫面擷取程式GUI->這邊是透過gemini理解labview的程式後完成的
+1.儀器來源，自行填入
+2.開發環境python/windows
+3.存檔類型PNG,要可以命名並選擇存放路徑(使用者的PC)
+4.按下確認後擷取圖片
+將產生的程式寫入D:\Claude_AI\Python Program\model\
+照著附圖的 Step1,Step2,Step3做出來
+
+按下擷取畫面之前，先下STOP，待圖片存完檔後再執行RUN的指令
+
+
+

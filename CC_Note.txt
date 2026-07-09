@@ -1,0 +1,28 @@
+
+1.幫我建立一個Main GUI,名稱叫做Phison AIP Measure
+2.GUI需要三個按鍵，第一個按鍵式儀器搜尋，第二個按鍵是選擇專案，第三個按鍵是開始測試
+3.再增加兩個勾選狀態
+
+勾選狀態一個幫我命名為Thermal?,另外一個命名為Instr?
+按下儀器搜尋幫我打開D:\Claude_AI\Python Program\sub\visa_gui.py
+D:\Claude_AI\Python Program\sub\visa_gui.py
+搜尋到儀器後幫我分類，主要類別有1.Power Supply;2.Scope;3.Function Generator;4Thermal;5.Meter;6.other
+6705是Power Supply,MSO或DSO開頭的是Scope,Temptronic是Thermal
+程式開啟只需搜尋一次，除非按下掃瞄儀器才執行再次掃描增加一個確認鍵
+將找到的儀器的位置和類別幫我存下來放在同一個路徑，方便後續呼叫使用
+增加一個確認鍵，將找到的儀器的位置和類別幫我存下來放在同一個路徑，方便後續呼叫使用
+看一下123.png，儀器重覆出現，已找到的儀器不要再重覆顯示
+確認鍵要在搜尋完成後才出現，按下後要順便關閉程式
+
+D:\Claude_AI\Python Program\cfg 這個目錄底下放置專案與可用的測試程式
+Project_List.csv 目前可選的專案
+Test_Program.csv 可用的程式清單
+你覺得這些設定檔有更好的選擇嗎?如果有請幫我轉換
+
+幫我在D:\Claude_AI\Python Program\sub 建立一個UI，UI開啟後讀取下面兩個設定檔後顯示出來，用你認為比較好的方式
+D:\Claude_AI\Python Program\cfg\project_List.json
+D:\Claude_AI\Python Program\cfg\test_programs.json
+不要分頁，顯示在同一個頁面，視窗大小不要超過當前顯示的1/4
+.json的路徑似乎錯了，導致無法讀取，檢查看看
+project只保留Key的窗格，將code依次排序出來
+test_programs只保留Key的窗格，Executable如果為 Y 將name依次排序出來

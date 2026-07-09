@@ -1,0 +1,134 @@
+[
+  {
+    "id": "proj_001",
+    "category": "PCIE",
+    "name": "PCIE_0",
+    "code": "PS5963"
+  },
+  {
+    "id": "proj_002",
+    "category": "",
+    "name": "PCIE_1",
+    "code": "PS5021"
+  },
+  {
+    "id": "proj_003",
+    "category": "",
+    "name": "PCIE_2",
+    "code": "PS5022"
+  },
+  {
+    "id": "proj_004",
+    "category": "",
+    "name": "PCIE_3",
+    "code": "PS5025"
+  },
+  {
+    "id": "proj_005",
+    "category": "",
+    "name": "PCIE_4",
+    "code": "PS5026"
+  },
+  {
+    "id": "proj_006",
+    "category": "",
+    "name": "PCIE_5",
+    "code": "PS5027"
+  },
+  {
+    "id": "proj_007",
+    "category": "",
+    "name": "PCIE_6",
+    "code": "PS5029"
+  },
+  {
+    "id": "proj_008",
+    "category": "",
+    "name": "PCIE_7",
+    "code": "PT5033"
+  },
+  {
+    "id": "proj_009",
+    "category": "",
+    "name": "PCIE_8",
+    "code": "PT1880"
+  },
+  {
+    "id": "proj_010",
+    "category": "",
+    "name": "PCIE_9",
+    "code": "PS5033"
+  },
+  {
+    "id": "proj_011",
+    "category": "",
+    "name": "PCIE_10",
+    "code": "PS5028"
+  },
+  {
+    "id": "proj_012",
+    "category": "",
+    "name": "PCIE_11",
+    "code": "PS5037"
+  },
+  {
+    "id": "proj_013",
+    "category": "",
+    "name": "PCIE_12",
+    "code": "PS5303_X3"
+  },
+  {
+    "id": "proj_014",
+    "category": "USB",
+    "name": "USB_0",
+    "code": "PS2319"
+  },
+  {
+    "id": "proj_015",
+    "category": "SD",
+    "name": "SD_0",
+    "code": "PS8229"
+  },
+  {
+    "id": "proj_016",
+    "category": "UFS",
+    "name": "UFS_0",
+    "code": "PS8325"
+  },
+  {
+    "id": "proj_017",
+    "category": "",
+    "name": "UFS_1",
+    "code": "PS8321"
+  },
+  {
+    "id": "proj_018",
+    "category": "",
+    "name": "UFS_2",
+    "code": "PS8133"
+  },
+  {
+    "id": "proj_019",
+    "category": "",
+    "name": "UFS_3",
+    "code": "PS8363"
+  },
+  {
+    "id": "proj_020",
+    "category": "",
+    "name": "UFS_4",
+    "code": "PT8365"
+  },
+  {
+    "id": "proj_021",
+    "category": "Other",
+    "name": "Other_0",
+    "code": "PT7260"
+  },
+  {
+    "id": "proj_022",
+    "category": "",
+    "name": "Other_1",
+    "code": "PT6303"
+  }
+]
