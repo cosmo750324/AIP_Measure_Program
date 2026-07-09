@@ -1,0 +1,140 @@
+[
+  {
+    "id": "test_001",
+    "group": "Regulator",
+    "name": "PSRR_V2",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_002",
+    "group": "Regulator",
+    "name": "Transient",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_003",
+    "group": "Regulator",
+    "name": "REG_INTEGRATION",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_004",
+    "group": "Regulator",
+    "name": "PSRR_V3",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_005",
+    "group": "Oscillator",
+    "name": "OSC_INTEGRATION",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_006",
+    "group": "Oscillator",
+    "name": "OSC_Deskew&Glitch",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_007",
+    "group": "Oscillator",
+    "name": "FTrack",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_008",
+    "group": "Oscillator",
+    "name": "Ftrack_V2",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_009",
+    "group": "Oscillator",
+    "name": "OSC_NTHTLT_Trim",
+    "Executable": "N"
+  },
+  {
+    "id": "test_010",
+    "group": "Voltage detector",
+    "name": "VDT_PRO",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_011",
+    "group": "Voltage detector",
+    "name": "VDT",
+    "Executable": "N"
+  },
+  {
+    "id": "test_012",
+    "group": "ADC",
+    "name": "ADC",
+    "Executable": "N"
+  },
+  {
+    "id": "test_013",
+    "group": "ADC",
+    "name": "ADC_PRO",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_014",
+    "group": "Temperature sensor",
+    "name": "TS_I2C",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_015",
+    "group": "Temperature sensor",
+    "name": "CTMS",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_016",
+    "group": "Temperature sensor",
+    "name": "Ringosc in TMS",
+    "Executable": "N"
+  },
+  {
+    "id": "test_017",
+    "group": "Temperature sensor",
+    "name": "TS_Curve_Trim",
+    "Executable": "N"
+  },
+  {
+    "id": "test_018",
+    "group": "GPIO",
+    "name": "GPIO_Merge",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_019",
+    "group": "FIO",
+    "name": "FIO_VIH_VIL",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_020",
+    "group": "FIO",
+    "name": "FIO_IMP",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_021",
+    "group": "IO Filter",
+    "name": "Filter_1U_CKPC",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_022",
+    "group": "RPDT",
+    "name": "TH_Volt",
+    "Executable": "Y"
+  },
+  {
+    "id": "test_023",
+    "group": "RNG",
+    "name": "RNG",
+    "Executable": "Y"
+  }
+]

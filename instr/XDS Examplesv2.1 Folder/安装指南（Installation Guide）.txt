@@ -1,0 +1,10 @@
+1.labview要8.0以上版本，visa要5.0.1以上版本。
+2.http://download.ni.com/support/softlib/visa/NI-VISA/5.0.1/win/visa501full.exe这个是visa的一个链接。
+3.压缩包内一个vieo，演示了USBdrv文件夹内的驱动的安装步骤。
+
+
+
+1.labview must be 8.0 or later,and visa must be 5.o.1 or later.
+2.link:http://download.ni.com/support/softlib/visa/NI-VISA/5.0.1/win/visa501full.exe
+3.please follow the steps to install the USBdrv in the video demo.
+4.The “acquire single wave 2.0.vi”gives an analytical method for the two sampling points interval,and when the probe is set X1, the unit of waveform amplitude can be converted to mv.

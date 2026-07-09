@@ -1,0 +1,25 @@
+Items,Description,LabVIEW
+Regulator,PSRR_V2,Y
+,Transient,Y
+,REG_INTEGRATION,Y
+,PSRR_V3,Y
+Oscillator,OSC_INTEGRATION,Y
+,OSC_Deskew&Glitch,Y
+,FTrack,Y
+,Ftrack_V2,Y
+,OSC_NTHTLT_Trim,TBD
+Voltage detector,VDT_PRO,Y
+,VDT,TBD
+ADC,ADC,TBD
+,ADC_PRO,Y
+Temperature sensor,TS_I2C,Y
+,CTMS,Y
+,Ringosc in TMS,TBD
+,TS_Curve_Trim,TBD
+GPIO,GPIO_Merge,Y
+FIO,FIO_VIH_VIL,Y
+,FIO_IMP,Y
+IO Filter,Filter_1U_CKPC,Y
+RPDT,TH_Volt,Y
+RNG,RNG,Y
+END,,
