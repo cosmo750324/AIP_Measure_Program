@@ -3,3 +3,19 @@ instr/
 
 __pycache__/
 sub/visa_scan_cache.json
+
+# Generated at runtime
+sub/instrument_list.txt
+sub/selected_config.json
+
+# Development screenshots and scratch copies
+sub/*.png
+/螢幕擷取畫面*.png
+*- 複製.py
+
+# Legacy CSV configs, replaced by cfg/*.json
+cfg/Project_List.csv
+cfg/Test_Program.csv
+
+# Separate local repo, not part of this project
+model/Power Supply/
