@@ -1,0 +1,226 @@
+{
+  "thermal": {
+    "delay_thermal_min": 20,
+    "points": [
+      125,
+      {
+        "type": "sweep",
+        "start": 124,
+        "end": 26,
+        "gap": 2
+      },
+      25,
+      {
+        "type": "sweep",
+        "start": 24,
+        "end": -40,
+        "gap": 2
+      },
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "trim_t": {
+    "nt": 25,
+    "lt": null,
+    "ht": 125,
+    "note": "NA on nt means the current temp will not be trimmed"
+  },
+  "junction_t": [
+    25,
+    100,
+    null
+  ],
+  "scan_v_delay_ms": 10000,
+  "setup_vcck": {
+    "default_v": 0.75,
+    "default_i": 3,
+    "values": [
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.96,
+      null
+    ]
+  },
+  "setup_vccah": {
+    "default_v": 1.3,
+    "default_i": 0.5,
+    "values": [
+      1.3,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "ctms_clk": {
+    "note": "without ext = internal",
+    "options": [
+      "CTMS_CLK_25MHz",
+      "CTMS_CLK_20MHz",
+      "CTMS_CLK_30MHz"
+    ]
+  },
+  "slave_id": {
+    "value": "0x28",
+    "format": "hex"
+  },
+  "i2c_sn": [
+    "33638220",
+    "33638276",
+    "33629124"
+  ],
+  "data_log_temp_ch": [
+    112,
+    212,
+    312
+  ],
+  "data_log_vccah_i_ch": [
+    {
+      "label": "T1_ma1",
+      "channel": 121
+    },
+    {
+      "label": "T2_ma1",
+      "channel": 221
+    },
+    {
+      "label": "T3_ma1",
+      "channel": 321
+    }
+  ],
+  "ctm_ldo": {
+    "mode_addr": 0,
+    "mode_note": "0: Power(V); != 0: Internal(register)",
+    "default_index": 0,
+    "values": [
+      0.75,
+      0.675,
+      0.825,
+      null,
+      null
+    ]
+  },
+  "tcode_get_mode": {
+    "value": 0,
+    "note": "0 = I2C, 1 = IO"
+  },
+  "ts_init_batch": "D:\\LabVIEV2013\\Phison_Measure\\documentation\\Setup\\PT8365\\CTMS\\CTMS_offset.bat",
+  "ctms_clk_ref_always_on": {
+    "value": 0,
+    "note": "0: ON/OFF by sheet name; 1: always ON"
+  },
+  "registers": {
+    "nt_count_trim": {
+      "addr": "0xF8F89111",
+      "from": 7,
+      "size": 14,
+      "enable_bit": 15,
+      "desc": "TS_DEC_NT_TRIM[9:0]"
+    },
+    "ht_count_trim": {
+      "addr": "0xF8F89110",
+      "from": 1,
+      "size": 14,
+      "enable_bit": 31
+    },
+    "nt_offset_trim": {
+      "addr": "0xF8F89114",
+      "from": 5,
+      "size": 8,
+      "enable_bit": 15
+    },
+    "ht_offset_trim": {
+      "addr": "0xF8F89113",
+      "from": 5,
+      "size": 8,
+      "enable_bit": 31
+    },
+    "infor": {
+      "addr": "0xF8F803C0",
+      "from": 16,
+      "size": 16
+    },
+    "nt_offset_rd": {
+      "addr": "0x900D60",
+      "from": 24,
+      "size": 8
+    },
+    "ht_offset_rd": {
+      "addr": "0x900D74",
+      "from": 16,
+      "size": 8
+    },
+    "ctms_code": {
+      "addr": "0xF8F803D0",
+      "sign_bit": 11,
+      "ready_bit": 10,
+      "tcode_from": 0,
+      "tcode_size": 10,
+      "desc": "bit0~9"
+    },
+    "cfg_ctms": {
+      "addr": "0xF8F803CC",
+      "from": 0,
+      "size": 1,
+      "conditions": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "conditions_desc": [
+        "2point",
+        "1point",
+        null,
+        null,
+        null
+      ]
+    },
+    "ctms_rtc": {
+      "addr": "0xF8F803C8",
+      "from": 12,
+      "size": 12,
+      "value": 899,
+      "format": "dec"
+    },
+    "lfosc": {
+      "addr": "0xF8F89105",
+      "from": 7,
+      "size": 6,
+      "codes": {
+        "s1": {
+          "25mhz": 11,
+          "20mhz": 34,
+          "30mhz": 26
+        },
+        "s2": {
+          "25mhz": 7,
+          "20mhz": 38,
+          "30mhz": 20
+        },
+        "s3": {
+          "25mhz": 5,
+          "20mhz": 40,
+          "30mhz": 17
+        }
+      }
+    },
+    "fuse_g": {
+      "addr": "0xF8F80660",
+      "from": 15,
+      "size": 2,
+      "flow": [
+        0,
+        2,
+        3
+      ]
+    }
+  }
+}

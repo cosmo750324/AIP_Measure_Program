@@ -1,0 +1,4 @@
+{
+  "temps": [125, {"type": "sweep", "start": 85, "end": -40, "gap": 5},-45],
+  "current_temp": 25
+}

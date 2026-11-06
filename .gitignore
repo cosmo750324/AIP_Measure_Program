@@ -1,2 +1,5 @@
 # Instr folder (instrument manuals, setup files, etc.)
 instr/
+
+__pycache__/
+sub/visa_scan_cache.json
